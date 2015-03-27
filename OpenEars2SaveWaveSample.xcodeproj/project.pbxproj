@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE144FB1A71F586001A8F69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE144FA1A71F586001A8F69 /* main.m */; };
+		DCE144FE1A71F586001A8F69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE144FD1A71F586001A8F69 /* AppDelegate.m */; };
+		DCE145011A71F586001A8F69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE145001A71F586001A8F69 /* ViewController.m */; };
+		DCE145061A71F586001A8F69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE145051A71F586001A8F69 /* Images.xcassets */; };
+		DCE145151A71F586001A8F69 /* OpenEars2SaveWaveSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE145141A71F586001A8F69 /* OpenEars2SaveWaveSampleTests.m */; };
+		DCE1452A1A72020B001A8F69 /* OEContinuousModel+SaveWave.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE145291A72020B001A8F69 /* OEContinuousModel+SaveWave.m */; };
+		DCE145311A721673001A8F69 /* 4784.dic in Resources */ = {isa = PBXBuildFile; fileRef = DCE1452F1A721673001A8F69 /* 4784.dic */; };
+		DCE145321A721673001A8F69 /* 4784.languagemodel in Sources */ = {isa = PBXBuildFile; fileRef = DCE145301A721673001A8F69 /* 4784.languagemodel */; };
+		DCE145361A721767001A8F69 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCE145341A721767001A8F69 /* AcousticModelEnglish.bundle */; };
+		DCE145371A721767001A8F69 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE145351A721767001A8F69 /* OpenEars.framework */; };
+		DCE145381A721D12001A8F69 /* 4784.languagemodel in Resources */ = {isa = PBXBuildFile; fileRef = DCE145301A721673001A8F69 /* 4784.languagemodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE1450F1A71F586001A8F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE144ED1A71F586001A8F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE144F41A71F586001A8F69;
+			remoteInfo = OpenEars2SaveWaveSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE144F51A71F586001A8F69 /* OpenEars2SaveWaveSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenEars2SaveWaveSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE144F91A71F586001A8F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE144FA1A71F586001A8F69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCE144FC1A71F586001A8F69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCE144FD1A71F586001A8F69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCE144FF1A71F586001A8F69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCE145001A71F586001A8F69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCE145051A71F586001A8F69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCE1450E1A71F586001A8F69 /* OpenEars2SaveWaveSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEars2SaveWaveSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE145131A71F586001A8F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE145141A71F586001A8F69 /* OpenEars2SaveWaveSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenEars2SaveWaveSampleTests.m; sourceTree = "<group>"; };
+		DCE145281A72020B001A8F69 /* OEContinuousModel+SaveWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OEContinuousModel+SaveWave.h"; sourceTree = "<group>"; };
+		DCE145291A72020B001A8F69 /* OEContinuousModel+SaveWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OEContinuousModel+SaveWave.m"; sourceTree = "<group>"; };
+		DCE1452F1A721673001A8F69 /* 4784.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4784.dic; sourceTree = "<group>"; };
+		DCE145301A721673001A8F69 /* 4784.languagemodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4784.languagemodel; sourceTree = "<group>"; };
+		DCE145341A721767001A8F69 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		DCE145351A721767001A8F69 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE144F21A71F586001A8F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE145371A721767001A8F69 /* OpenEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE1450B1A71F586001A8F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE144EC1A71F586001A8F69 = {
+			isa = PBXGroup;
+			children = (
+				DCE144F71A71F586001A8F69 /* OpenEars2SaveWaveSample */,
+				DCE145111A71F586001A8F69 /* OpenEars2SaveWaveSampleTests */,
+				DCE144F61A71F586001A8F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE144F61A71F586001A8F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE144F51A71F586001A8F69 /* OpenEars2SaveWaveSample.app */,
+				DCE1450E1A71F586001A8F69 /* OpenEars2SaveWaveSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE144F71A71F586001A8F69 /* OpenEars2SaveWaveSample */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1452F1A721673001A8F69 /* 4784.dic */,
+				DCE145301A721673001A8F69 /* 4784.languagemodel */,
+				DCE1451E1A72003D001A8F69 /* Vendor */,
+				DCE144FC1A71F586001A8F69 /* AppDelegate.h */,
+				DCE144FD1A71F586001A8F69 /* AppDelegate.m */,
+				DCE144FF1A71F586001A8F69 /* ViewController.h */,
+				DCE145001A71F586001A8F69 /* ViewController.m */,
+				DCE145051A71F586001A8F69 /* Images.xcassets */,
+				DCE144F81A71F586001A8F69 /* Supporting Files */,
+				DCE145281A72020B001A8F69 /* OEContinuousModel+SaveWave.h */,
+				DCE145291A72020B001A8F69 /* OEContinuousModel+SaveWave.m */,
+			);
+			path = OpenEars2SaveWaveSample;
+			sourceTree = "<group>";
+		};
+		DCE144F81A71F586001A8F69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE144F91A71F586001A8F69 /* Info.plist */,
+				DCE144FA1A71F586001A8F69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCE145111A71F586001A8F69 /* OpenEars2SaveWaveSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE145141A71F586001A8F69 /* OpenEars2SaveWaveSampleTests.m */,
+				DCE145121A71F586001A8F69 /* Supporting Files */,
+			);
+			path = OpenEars2SaveWaveSampleTests;
+			sourceTree = "<group>";
+		};
+		DCE145121A71F586001A8F69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE145131A71F586001A8F69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCE1451E1A72003D001A8F69 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DCE145331A721767001A8F69 /* OpenEars */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		DCE145331A721767001A8F69 /* OpenEars */ = {
+			isa = PBXGroup;
+			children = (
+				DCE145341A721767001A8F69 /* AcousticModelEnglish.bundle */,
+				DCE145351A721767001A8F69 /* OpenEars.framework */,
+			);
+			path = OpenEars;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE144F41A71F586001A8F69 /* OpenEars2SaveWaveSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE145181A71F586001A8F69 /* Build configuration list for PBXNativeTarget "OpenEars2SaveWaveSample" */;
+			buildPhases = (
+				DCE144F11A71F586001A8F69 /* Sources */,
+				DCE144F21A71F586001A8F69 /* Frameworks */,
+				DCE144F31A71F586001A8F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenEars2SaveWaveSample;
+			productName = OpenEars2SaveWaveSample;
+			productReference = DCE144F51A71F586001A8F69 /* OpenEars2SaveWaveSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE1450D1A71F586001A8F69 /* OpenEars2SaveWaveSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE1451B1A71F586001A8F69 /* Build configuration list for PBXNativeTarget "OpenEars2SaveWaveSampleTests" */;
+			buildPhases = (
+				DCE1450A1A71F586001A8F69 /* Sources */,
+				DCE1450B1A71F586001A8F69 /* Frameworks */,
+				DCE1450C1A71F586001A8F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE145101A71F586001A8F69 /* PBXTargetDependency */,
+			);
+			name = OpenEars2SaveWaveSampleTests;
+			productName = OpenEars2SaveWaveSampleTests;
+			productReference = DCE1450E1A71F586001A8F69 /* OpenEars2SaveWaveSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE144ED1A71F586001A8F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mojifan;
+				TargetAttributes = {
+					DCE144F41A71F586001A8F69 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DCE1450D1A71F586001A8F69 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DCE144F41A71F586001A8F69;
+					};
+				};
+			};
+			buildConfigurationList = DCE144F01A71F586001A8F69 /* Build configuration list for PBXProject "OpenEars2SaveWaveSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE144EC1A71F586001A8F69;
+			productRefGroup = DCE144F61A71F586001A8F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE144F41A71F586001A8F69 /* OpenEars2SaveWaveSample */,
+				DCE1450D1A71F586001A8F69 /* OpenEars2SaveWaveSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE144F31A71F586001A8F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE145381A721D12001A8F69 /* 4784.languagemodel in Resources */,
+				DCE145361A721767001A8F69 /* AcousticModelEnglish.bundle in Resources */,
+				DCE145061A71F586001A8F69 /* Images.xcassets in Resources */,
+				DCE145311A721673001A8F69 /* 4784.dic in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE1450C1A71F586001A8F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE144F11A71F586001A8F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE1452A1A72020B001A8F69 /* OEContinuousModel+SaveWave.m in Sources */,
+				DCE145321A721673001A8F69 /* 4784.languagemodel in Sources */,
+				DCE145011A71F586001A8F69 /* ViewController.m in Sources */,
+				DCE144FE1A71F586001A8F69 /* AppDelegate.m in Sources */,
+				DCE144FB1A71F586001A8F69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE1450A1A71F586001A8F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE145151A71F586001A8F69 /* OpenEars2SaveWaveSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE145101A71F586001A8F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE144F41A71F586001A8F69 /* OpenEars2SaveWaveSample */;
+			targetProxy = DCE1450F1A71F586001A8F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCE145161A71F586001A8F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCE145171A71F586001A8F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE145191A71F586001A8F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenEars2SaveWaveSample/Framework",
+					"$(PROJECT_DIR)/OpenEars2SaveWaveSample/OpenEars",
+				);
+				INFOPLIST_FILE = OpenEars2SaveWaveSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCE1451A1A71F586001A8F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenEars2SaveWaveSample/Framework",
+					"$(PROJECT_DIR)/OpenEars2SaveWaveSample/OpenEars",
+				);
+				INFOPLIST_FILE = OpenEars2SaveWaveSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCE1451C1A71F586001A8F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenEars2SaveWaveSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenEars2SaveWaveSample.app/OpenEars2SaveWaveSample";
+			};
+			name = Debug;
+		};
+		DCE1451D1A71F586001A8F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenEars2SaveWaveSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenEars2SaveWaveSample.app/OpenEars2SaveWaveSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE144F01A71F586001A8F69 /* Build configuration list for PBXProject "OpenEars2SaveWaveSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE145161A71F586001A8F69 /* Debug */,
+				DCE145171A71F586001A8F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE145181A71F586001A8F69 /* Build configuration list for PBXNativeTarget "OpenEars2SaveWaveSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE145191A71F586001A8F69 /* Debug */,
+				DCE1451A1A71F586001A8F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCE1451B1A71F586001A8F69 /* Build configuration list for PBXNativeTarget "OpenEars2SaveWaveSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE1451C1A71F586001A8F69 /* Debug */,
+				DCE1451D1A71F586001A8F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE144ED1A71F586001A8F69 /* Project object */;
+}
